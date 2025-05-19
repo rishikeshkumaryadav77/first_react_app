@@ -1,8 +1,14 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 function FunctionBased(){
   const[countNum, setcountNum] = useState(0)
+  const[name, setname] = useState('rishikesh')
+
+  useEffect(() =>{
+    setname('rishi')
+  })
   return(
     <>
+    <h1>{name}</h1>
     <h1>{countNum}</h1>
     <button onClick={() =>{
       setcountNum(countNum+1)

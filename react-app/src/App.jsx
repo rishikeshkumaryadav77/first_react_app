@@ -3,6 +3,8 @@ import './App.css'
 import UserClass from './Component/UsercCass'
 import FunctionBased from './Component/FunctionBased'
 import DidMount from './Component/DidMount'
+import CustomComponent from './Component/CustomComponent'
+
 
 function App() {
   
@@ -11,7 +13,8 @@ function App() {
     <>
       {/* <FunctionBased /> */}
       {/* <UserClass name={'rishikesh'}/> */}
-      <DidMount />
+      {/* <DidMount /> */}
+      <CustomComponent />
     </>
   )
 }
