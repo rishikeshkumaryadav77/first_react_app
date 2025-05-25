@@ -4,6 +4,7 @@ import UserClass from './Component/UsercCass'
 import FunctionBased from './Component/FunctionBased'
 import DidMount from './Component/DidMount'
 import CustomComponent from './Component/CustomComponent'
+import UseEffect from './Component/UseEffect'
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       {/* <FunctionBased /> */}
       {/* <UserClass name={'rishikesh'}/> */}
       {/* <DidMount /> */}
-      <CustomComponent />
+      {/* <CustomComponent /> */}
+      <UseEffect />
     </>
   )
 }
