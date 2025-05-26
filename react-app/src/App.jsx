@@ -5,6 +5,8 @@ import FunctionBased from './Component/FunctionBased'
 import DidMount from './Component/DidMount'
 import CustomComponent from './Component/CustomComponent'
 import UseEffect from './Component/UseEffect'
+import Function from './Component/Function'
+import Toggle from './Component/Toggle'
 
 
 function App() {
@@ -16,7 +18,9 @@ function App() {
       {/* <UserClass name={'rishikesh'}/> */}
       {/* <DidMount /> */}
       {/* <CustomComponent /> */}
-      <UseEffect />
+      {/* <UseEffect /> */}
+      {/* <Function /> */}
+      <Toggle />
     </>
   )
 }
