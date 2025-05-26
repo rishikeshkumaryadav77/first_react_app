@@ -7,6 +7,8 @@ import CustomComponent from './Component/CustomComponent'
 import UseEffect from './Component/UseEffect'
 import Function from './Component/Function'
 import Toggle from './Component/Toggle'
+import InputField from './Component/InputField'
+import CheckBox from './Component/CheckBox'
 
 
 function App() {
@@ -20,7 +22,9 @@ function App() {
       {/* <CustomComponent /> */}
       {/* <UseEffect /> */}
       {/* <Function /> */}
-      <Toggle />
+      {/* <Toggle /> */}
+      {/* <InputField /> */}
+      <CheckBox />
     </>
   )
 }
