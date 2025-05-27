@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+// import './App.css'
 import UserClass from './Component/UsercCass'
 import FunctionBased from './Component/FunctionBased'
 import DidMount from './Component/DidMount'
@@ -11,6 +11,7 @@ import InputField from './Component/InputField'
 import CheckBox from './Component/CheckBox'
 import RadioDrop from './Component/RadioDrop'
 import Table from './Component/Table'
+import Clock from './Component/Clock'
 
 
 function App() {
@@ -28,7 +29,8 @@ function App() {
       {/* <InputField /> */}
       {/* <CheckBox /> */}
       {/* <RadioDrop /> */}
-      <Table />
+      {/* <Table /> */}
+      <Clock />
     </>
   )
 }
