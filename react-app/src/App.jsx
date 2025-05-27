@@ -12,6 +12,7 @@ import CheckBox from './Component/CheckBox'
 import RadioDrop from './Component/RadioDrop'
 import Table from './Component/Table'
 import Clock from './Component/Clock'
+import PropsColor from './Component/PropsColor'
 
 
 function App() {
@@ -30,7 +31,8 @@ function App() {
       {/* <CheckBox /> */}
       {/* <RadioDrop /> */}
       {/* <Table /> */}
-      <Clock />
+      {/* <Clock /> */}
+      <PropsColor />
     </>
   )
 }
