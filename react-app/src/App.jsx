@@ -9,6 +9,8 @@ import Function from './Component/Function'
 import Toggle from './Component/Toggle'
 import InputField from './Component/InputField'
 import CheckBox from './Component/CheckBox'
+import RadioDrop from './Component/RadioDrop'
+import Table from './Component/Table'
 
 
 function App() {
@@ -24,7 +26,9 @@ function App() {
       {/* <Function /> */}
       {/* <Toggle /> */}
       {/* <InputField /> */}
-      <CheckBox />
+      {/* <CheckBox /> */}
+      {/* <RadioDrop /> */}
+      <Table />
     </>
   )
 }
