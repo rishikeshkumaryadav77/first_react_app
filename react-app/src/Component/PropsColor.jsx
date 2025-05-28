@@ -15,6 +15,7 @@ function PropsColor() {
         <option value="yellowgreen">yellowgreen</option>
       </select>
       <Clock Color={Color} />
+     
     </>
   );
 }

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import PropsColor from './PropsColor';
 
 function Clock({ Color }) {
-  const [date, setDate] = useState();
+  const [date, setDate] = useState(new Date().toLocaleTimeString());
 
   useEffect(() => {
     const timerID = setInterval(() => {
@@ -14,8 +14,6 @@ function Clock({ Color }) {
 
   return (
     <>
-    <h1>Select Color</h1>
-    
     <h1
       style={{
         backgroundColor: "black",

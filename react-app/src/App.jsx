@@ -1,5 +1,5 @@
 import { useState } from 'react'
-// import './App.css'
+import './App.css'
 import UserClass from './Component/UsercCass'
 import FunctionBased from './Component/FunctionBased'
 import DidMount from './Component/DidMount'
@@ -13,6 +13,7 @@ import RadioDrop from './Component/RadioDrop'
 import Table from './Component/Table'
 import Clock from './Component/Clock'
 import PropsColor from './Component/PropsColor'
+import UncontrolCopm from './Component/UncontrolComp'
 
 
 function App() {
@@ -32,7 +33,8 @@ function App() {
       {/* <RadioDrop /> */}
       {/* <Table /> */}
       {/* <Clock /> */}
-      <PropsColor />
+      {/* <PropsColor /> */}
+      <UncontrolCopm/>
     </>
   )
 }
