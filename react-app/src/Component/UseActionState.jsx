@@ -2,7 +2,7 @@ import { useActionState } from "react";
 
 function UseActionState() {
 
-  const handleSubmit = async (prev, formData) => {
+  const handleSubmit = (prev, formData) => {
     const name = formData.get("name");
     const password = formData.get("password"); // FIXED
     console.log(name, password);

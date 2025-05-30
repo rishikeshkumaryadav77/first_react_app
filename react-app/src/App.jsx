@@ -15,7 +15,8 @@ import './App.css'
 // import PropsColor from './Component/PropsColor'
 // import UncontrolCopm from './Component/UncontrolComp'
 // import DerivedState from './Component/DerivedState'
-import UseActionState from './Component/useActionState'
+// import UseActionState from './Component/useActionState'
+import setIncrease from './Component/ComponentAndUseState'
 
 
 function App() {
@@ -38,7 +39,8 @@ function App() {
       {/* <PropsColor /> */}
       {/* <UncontrolCopm/> */}
       {/* <DerivedState /> */}
-      <UseActionState />
+      {/* <UseActionState /> */}
+      <setIncrease />
     </>
   )
 }
