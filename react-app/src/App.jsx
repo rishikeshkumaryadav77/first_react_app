@@ -1,5 +1,6 @@
 // import { useState } from 'react'
 import './App.css'
+import ReactRouter from './Component/ReactRouter'
 // import UserClass from './Component/UsercCass'
 // import FunctionBased from './Component/FunctionBased'
 // import DidMount from './Component/DidMount'
@@ -16,7 +17,7 @@ import './App.css'
 // import UncontrolCopm from './Component/UncontrolComp'
 // import DerivedState from './Component/DerivedState'
 // import UseActionState from './Component/useActionState'
-import setIncrease from './Component/ComponentAndUseState'
+// import setIncrease from './Component/ComponentAndUseState'
 
 
 function App() {
@@ -40,7 +41,8 @@ function App() {
       {/* <UncontrolCopm/> */}
       {/* <DerivedState /> */}
       {/* <UseActionState /> */}
-      <setIncrease />
+      {/* <setIncrease /> */}
+      <ReactRouter />
     </>
   )
 }
