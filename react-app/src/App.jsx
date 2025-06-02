@@ -1,6 +1,8 @@
 // import { useState } from 'react'
 import './App.css'
-import ReactRouter from './Component/ReactRouter'
+import ColorRange from './Component/ColorRange'
+// import InputValue from './Component/InputValue'
+// import ReactRouter from './Component/ReactRouter'
 // import UserClass from './Component/UsercCass'
 // import FunctionBased from './Component/FunctionBased'
 // import DidMount from './Component/DidMount'
@@ -42,7 +44,9 @@ function App() {
       {/* <DerivedState /> */}
       {/* <UseActionState /> */}
       {/* <setIncrease /> */}
-      <ReactRouter />
+      {/* <ReactRouter /> */}
+      {/* <InputValue /> */}
+      <ColorRange />
     </>
   )
 }
