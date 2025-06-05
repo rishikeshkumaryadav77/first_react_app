@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 function ColorRange(){
-  const [red, setRed] = useState(0)
-  console.log(red)
-  const [green, setGreen] = useState(0)
-  const [blue, setBlue] = useState(0)
+  const Colors = JSON.parse(localStorage.getItem('color'))
+  const [red, setRed] = useState(Colors && Colors.red ? Colors.red : 0)
+  const [green, setGreen] = useState(Colors && Colors.green ? Colors.green : 0)
+  const [blue, setBlue] = useState(Colors && Colors.blue ? Colors.blue : 0)
   const saveColor = () =>{
     localStorage.setItem('color',JSON.stringify({red, green, blue}))
   }

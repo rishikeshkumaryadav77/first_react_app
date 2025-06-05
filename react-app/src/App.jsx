@@ -1,6 +1,7 @@
 // import { useState } from 'react'
 import './App.css'
-import ColorRange from './Component/ColorRange'
+import UseReduce from './Component/UseReduce'
+// import ColorRange from './Component/ColorRange'
 // import InputValue from './Component/InputValue'
 // import ReactRouter from './Component/ReactRouter'
 // import UserClass from './Component/UsercCass'
@@ -46,7 +47,8 @@ function App() {
       {/* <setIncrease /> */}
       {/* <ReactRouter /> */}
       {/* <InputValue /> */}
-      <ColorRange />
+      {/* <ColorRange /> */}
+      <UseReduce />
     </>
   )
 }
